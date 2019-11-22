@@ -17,7 +17,7 @@ const PasswordField = (props) => {
     <input
       id="password-field"
       type="password"
-      placeholder="*******************"
+      placeholder="Password"
       className={ classes.join(' ') }
       value={ props.password }
       onChange={ props.handlePasswordInput }
